@@ -1,0 +1,15 @@
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.AssemblyInfoInputs.cache
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.AssemblyInfo.cs
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.csproj.CoreCompileInputs.cache
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.sourcelink.json
+C:\projetos\C#\exercicioListas\Aumento\Aumento\bin\Debug\net8.0\Aumento.exe
+C:\projetos\C#\exercicioListas\Aumento\Aumento\bin\Debug\net8.0\Aumento.deps.json
+C:\projetos\C#\exercicioListas\Aumento\Aumento\bin\Debug\net8.0\Aumento.runtimeconfig.json
+C:\projetos\C#\exercicioListas\Aumento\Aumento\bin\Debug\net8.0\Aumento.dll
+C:\projetos\C#\exercicioListas\Aumento\Aumento\bin\Debug\net8.0\Aumento.pdb
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.dll
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\refint\Aumento.dll
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.pdb
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\Aumento.genruntimeconfig.cache
+C:\projetos\C#\exercicioListas\Aumento\Aumento\obj\Debug\net8.0\ref\Aumento.dll
