@@ -1,0 +1,15 @@
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.AssemblyInfoInputs.cache
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.AssemblyInfo.cs
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.csproj.CoreCompileInputs.cache
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.sourcelink.json
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\bin\Debug\net8.0\Matriz.exe
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\bin\Debug\net8.0\Matriz.deps.json
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\bin\Debug\net8.0\Matriz.runtimeconfig.json
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\bin\Debug\net8.0\Matriz.dll
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\bin\Debug\net8.0\Matriz.pdb
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.dll
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\refint\Matriz.dll
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.pdb
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\Matriz.genruntimeconfig.cache
+C:\projetos\C#\exercicioMatriz\Matriz\Matriz\obj\Debug\net8.0\ref\Matriz.dll
