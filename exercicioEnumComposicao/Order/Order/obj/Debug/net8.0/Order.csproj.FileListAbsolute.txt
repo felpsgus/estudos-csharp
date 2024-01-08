@@ -1,0 +1,15 @@
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\bin\Debug\net8.0\Order.exe
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\bin\Debug\net8.0\Order.deps.json
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\bin\Debug\net8.0\Order.runtimeconfig.json
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\bin\Debug\net8.0\Order.dll
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\bin\Debug\net8.0\Order.pdb
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.AssemblyInfoInputs.cache
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.AssemblyInfo.cs
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.csproj.CoreCompileInputs.cache
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.sourcelink.json
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.dll
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\refint\Order.dll
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.pdb
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\Order.genruntimeconfig.cache
+C:\projetos\C#\exercicioEnumComposicao\Order\Order\obj\Debug\net8.0\ref\Order.dll
