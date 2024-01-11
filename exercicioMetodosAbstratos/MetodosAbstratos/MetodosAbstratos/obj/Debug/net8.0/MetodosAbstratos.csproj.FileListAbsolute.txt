@@ -1,0 +1,15 @@
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\bin\Debug\net8.0\MetodosAbstratos.exe
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\bin\Debug\net8.0\MetodosAbstratos.deps.json
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\bin\Debug\net8.0\MetodosAbstratos.runtimeconfig.json
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\bin\Debug\net8.0\MetodosAbstratos.dll
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\bin\Debug\net8.0\MetodosAbstratos.pdb
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.AssemblyInfoInputs.cache
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.AssemblyInfo.cs
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.csproj.CoreCompileInputs.cache
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.sourcelink.json
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.dll
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\refint\MetodosAbstratos.dll
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.pdb
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\MetodosAbstratos.genruntimeconfig.cache
+C:\projetos\C#\exercicioMetodosAbstratos\MetodosAbstratos\MetodosAbstratos\obj\Debug\net8.0\ref\MetodosAbstratos.dll
