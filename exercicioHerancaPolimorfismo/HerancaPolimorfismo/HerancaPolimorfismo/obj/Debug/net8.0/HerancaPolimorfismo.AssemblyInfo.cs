@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Order")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HerancaPolimorfismo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Order")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Order")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5107d7d8398e2fdacea46a42ad1f676078b437a3")]
+[assembly: System.Reflection.AssemblyProductAttribute("HerancaPolimorfismo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HerancaPolimorfismo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

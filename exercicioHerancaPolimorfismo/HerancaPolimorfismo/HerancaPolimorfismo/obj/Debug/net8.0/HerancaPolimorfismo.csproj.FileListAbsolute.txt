@@ -1,0 +1,15 @@
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net8.0\HerancaPolimorfismo.exe
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net8.0\HerancaPolimorfismo.deps.json
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net8.0\HerancaPolimorfismo.runtimeconfig.json
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net8.0\HerancaPolimorfismo.dll
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\bin\Debug\net8.0\HerancaPolimorfismo.pdb
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.AssemblyInfoInputs.cache
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.AssemblyInfo.cs
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.sourcelink.json
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.dll
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\refint\HerancaPolimorfismo.dll
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.pdb
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\HerancaPolimorfismo.genruntimeconfig.cache
+C:\projetos\C#\exercicioHerancaPolimorfismo\HerancaPolimorfismo\HerancaPolimorfismo\obj\Debug\net8.0\ref\HerancaPolimorfismo.dll
