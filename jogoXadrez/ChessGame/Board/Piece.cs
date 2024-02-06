@@ -1,43 +1,45 @@
-namespace ChessGame.Board;
-
-public abstract class Piece
+namespace ChessGame.Board
 {
-    public Position Position { get; set; }
-    public Color Color { get; protected set; }
-    public int NumMovements { get; protected set; }
-    public MatchBoard MatchBoard { get; protected set; }
-
-    public Piece(MatchBoard matchBoard, Color color)
+    public abstract class Piece(MatchBoard matchBoard, Color color)
     {
-        Position = null;
-        MatchBoard = matchBoard;
-        Color = color;
-        NumMovements = 0;
-    }
+        public Position? Position { get; set; } = null;
+        public Color Color { get; protected set; } = color;
+        public int NumMovements { get; set; } = 0;
+        protected MatchBoard MatchBoard { get; set; } = matchBoard;
 
-    public void IncreaseNumMovements()
-    {
-        NumMovements++;
-    }
-
-    public bool HasPossibleMovements()
-    {
-        bool[,] matrix = PossibleMovements();
-        for (int i = 0; i < MatchBoard.Rows; i++)
+        public void IncreaseNumMovements()
         {
-            for (int j = 0; j < MatchBoard.Columns; j++)
+            NumMovements++;
+        }
+
+        public void DecreaseNumMovements()
+        {
+            NumMovements--;
+        }
+
+        public bool HasPossibleMovements()
+        {
+            bool[,] matrix = PossibleMovements();
+            for (int i = 0; i < MatchBoard.Rows; i++)
             {
-                if (matrix[i, j])
+                for (int j = 0; j < MatchBoard.Columns; j++)
                 {
-                    return true;
+                    if (matrix[i, j])
+                    {
+                        return true;
+                    }
                 }
             }
+            return false;
         }
-        return false;
+
+        public abstract bool[,] PossibleMovements();
+
+        public abstract bool AllowedMovement(Position pos);
+
+        public bool CanMoveTo(Position pos)
+        {
+            return PossibleMovements()[pos.Row, pos.Column];
+        }
     }
-
-    public abstract bool[,] PossibleMovements();
-
-    public abstract bool CanMoveTo(Position pos);
-
 }

@@ -1,7 +1,8 @@
-namespace ChessGame.Board;
-
-public enum Color
+namespace ChessGame.Board
 {
-    White,
-    Black
+    public enum Color
+    {
+        White,
+        Black,
+    }
 }

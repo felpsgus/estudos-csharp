@@ -1,70 +1,60 @@
-namespace ChessGame.Board;
-
-public class MatchBoard
+namespace ChessGame.Board
 {
-    public int Rows { get; set; }
-    public int Columns { get; set; }
-    private Piece[,] Pieces { get; set; }
-
-    public MatchBoard(int rows, int columns)
+    public class MatchBoard(int rows, int columns)
     {
-        Rows = rows;
-        Columns = columns;
-        Pieces = new Piece[rows, columns];
-    }
+        public int Rows { get; set; } = rows;
+        public int Columns { get; set; } = columns;
+        private Piece[,] Pieces { get; set; } = new Piece[rows, columns];
 
-    public Piece Piece(int linha, int coluna)
-    {
-        return Pieces[linha, coluna];
-    }
-
-    public Piece Piece(Position position)
-    {
-        return Pieces[position.Row, position.Column];
-    }
-
-    public bool PieceExists(Position position)
-    {
-        ValidatePosition(position);
-        return Piece(position) != null;
-    }
-
-    public void PlacePiece(Piece piece, Position position)
-    {
-        if (PieceExists(position))
+        public Piece Piece(int row, int column)
         {
-            throw new BoardException("There is already a piece in that position!");
+            return Pieces[row, column];
         }
-        Pieces[position.Row, position.Column] = piece;
-        piece.Position = position;
-    }
 
-    public Piece TakePiece(Position position)
-    {
-        if (Piece(position) == null)
+        public Piece Piece(Position position)
         {
-            return null;
+            return Pieces[position.Row, position.Column];
         }
-        Piece aux = Piece(position);
-        aux.Position = null;
-        Pieces[position.Row, position.Column] = null;
-        return aux;
-    }
 
-    public bool ValidPosition(Position position)
-    {
-        if (position.Row < 0 || position.Row >= Rows || position.Column < 0 || position.Column >= Columns)
+        private bool PieceExists(Position position)
         {
-            return false;
+            ValidatePosition(position);
+            return Piece(position) != null;
         }
-        return true;
-    }
 
-    public void ValidatePosition(Position position)
-    {
-        if (!ValidPosition(position))
+        public void PlacePiece(Piece piece, Position position)
         {
-            throw new BoardException("Invalid position!");
+            if (PieceExists(position))
+            {
+                throw new BoardException("There is already a piece in that position!");
+            }
+            Pieces[position.Row, position.Column] = piece;
+            piece.Position = position;
+        }
+
+        public Piece? TakePiece(Position position)
+        {
+            if (Piece(position) == null)
+            {
+                return null;
+            }
+            Piece aux = Piece(position);
+            aux.Position = null;
+            Pieces[position.Row, position.Column] = null;
+            return aux;
+        }
+
+        public bool ValidPosition(Position position)
+        {
+            return position.Row >= 0 && position.Row < Rows && position.Column >= 0 && position.Column < Columns;
+        }
+
+        private void ValidatePosition(Position position)
+        {
+            if (!ValidPosition(position))
+            {
+                throw new BoardException("Invalid position!");
+            }
         }
     }
 }

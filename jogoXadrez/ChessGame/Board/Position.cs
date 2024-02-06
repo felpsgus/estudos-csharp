@@ -1,24 +1,19 @@
-namespace ChessGame.Board;
-
-public class Position
+namespace ChessGame.Board
 {
-    public int Row { get; set; }
-    public int Column { get; set; }
-
-    public Position(int row, int column)
+    public class Position(int row, int column)
     {
-        Row = row;
-        Column = column;
-    }
+        public int Row { get; set; } = row;
+        public int Column { get; set; } = column;
 
-    public void SetValues(int row, int column)
-    {
-        Row = row;
-        Column = column;
-    }
+        public void SetValues(int row, int column)
+        {
+            Row = row;
+            Column = column;
+        }
 
-    public override string ToString()
-    {
-        return $"{Row}, {Column}";
+        public override string ToString()
+        {
+            return $"{Row}, {Column}";
+        }
     }
 }

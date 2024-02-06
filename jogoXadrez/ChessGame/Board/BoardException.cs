@@ -1,8 +1,4 @@
-namespace ChessGame.Board;
-
-public class BoardException : Exception
+namespace ChessGame.Board
 {
-    public BoardException(string message) : base(message)
-    {
-    }
+    public class BoardException(string message) : Exception(message);
 }

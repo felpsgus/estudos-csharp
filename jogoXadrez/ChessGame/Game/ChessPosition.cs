@@ -1,25 +1,20 @@
 using ChessGame.Board;
 
-namespace ChessGame.Game;
-
-public class ChessPosition : Position
+namespace ChessGame.Game
 {
-    public char Coluna { get; set; }
-    public int Linha { get; set; }
-
-    public ChessPosition(char coluna, int linha) : base(linha, coluna)
+    public class ChessPosition(char column, int row) : Position(row, column)
     {
-        Coluna = coluna;
-        Linha = linha;
-    }
+        private char Column { get; set; } = column;
+        private int Row { get; set; } = row;
 
-    public Position ToPosition()
-    {
-        return new Position(8 - Linha, Coluna - 'a');
-    }
+        public Position ToPosition()
+        {
+            return new Position(8 - Row, Column - 'a');
+        }
 
-    public override string ToString()
-    {
-        return "" + Coluna + Linha;
+        public override string ToString()
+        {
+            return "" + Column + Row;
+        }
     }
 }

@@ -13,7 +13,7 @@ public class Bishop : Piece
         return "B";
     }
 
-    public override bool CanMoveTo(Position pos)
+    public override bool AllowedMovement(Position pos)
     {
         Piece p = MatchBoard.Piece(pos);
         return p == null || p.Color != Color;
@@ -26,11 +26,11 @@ public class Bishop : Piece
         Position pos = new Position(0, 0);
 
         // up-right
-        pos.SetValues(MatchBoard.Rows - 1, MatchBoard.Columns + 1);
-        while (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+        pos.SetValues(Position.Row - 1, Position.Column + 1);
+        while (MatchBoard.ValidPosition(pos) && AllowedMovement(pos))
         {
             matrix[pos.Row, pos.Column] = true;
-            if (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+            if (MatchBoard.Piece(pos) != null && MatchBoard.Piece(pos).Color != Color)
             {
                 break;
             }
@@ -38,11 +38,11 @@ public class Bishop : Piece
         }
 
         // down-right
-        pos.SetValues(MatchBoard.Rows + 1, MatchBoard.Columns + 1);
-        while (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+        pos.SetValues(Position.Row + 1, Position.Column + 1);
+        while (MatchBoard.ValidPosition(pos) && AllowedMovement(pos))
         {
             matrix[pos.Row, pos.Column] = true;
-            if (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+            if (MatchBoard.Piece(pos) != null && MatchBoard.Piece(pos).Color != Color)
             {
                 break;
             }
@@ -50,11 +50,11 @@ public class Bishop : Piece
         }
 
         // down-left
-        pos.SetValues(MatchBoard.Rows + 1, MatchBoard.Columns - 1);
-        while (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+        pos.SetValues(Position.Row + 1, Position.Column - 1);
+        while (MatchBoard.ValidPosition(pos) && AllowedMovement(pos))
         {
             matrix[pos.Row, pos.Column] = true;
-            if (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+            if (MatchBoard.Piece(pos) != null && MatchBoard.Piece(pos).Color != Color)
             {
                 break;
             }
@@ -62,11 +62,11 @@ public class Bishop : Piece
         }
 
         // up-left
-        pos.SetValues(MatchBoard.Rows - 1, MatchBoard.Columns - 1);
-        while (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+        pos.SetValues(Position.Row - 1, Position.Column - 1);
+        while (MatchBoard.ValidPosition(pos) && AllowedMovement(pos))
         {
             matrix[pos.Row, pos.Column] = true;
-            if (MatchBoard.ValidPosition(pos) && CanMoveTo(pos))
+            if (MatchBoard.Piece(pos) != null && MatchBoard.Piece(pos).Color != Color)
             {
                 break;
             }
