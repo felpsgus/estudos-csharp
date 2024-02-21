@@ -41,10 +41,7 @@ namespace Conjuntos
             {
                 foreach (Course course in professor.Courses)
                 {
-                    foreach (Student user in course.Students)
-                    {
-                        users.Add(user);
-                    }
+                    users.UnionWith(course.Students);
                 }
             }
 
